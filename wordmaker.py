@@ -89,5 +89,5 @@ class WordMaker(object):
 
 if __name__ == '__main__':
     maker = WordMaker()
-    used = maker.search_words(syllables=4, min_length=3)
+    used = maker.search_words(syllables=1, starting_with='m', min_length=3)
     maker.create_double_word(used)
